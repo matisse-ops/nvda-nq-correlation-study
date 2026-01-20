@@ -11,6 +11,11 @@ Follow these steps to set up and run the analysis on your local machine:
     ```bash 
     pip install pandas matplotlib seaborn yfinance
     ```
+    Ensure you also have jupyter installed.
+    install via terminals:
+    ```bash
+    pip install notebook
+    ```
 
 ### 2. Execution
     Open your terminal and navigate to the project folder.
