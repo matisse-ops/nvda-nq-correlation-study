@@ -3,6 +3,24 @@
 ## Project Overview
 This project is an Exploratory Data Analysis (EDA) comparing the historical performance and risk profiles of **NVIDIA (NVDA)** and the **NASDAQ-100 (QQQ)**. By analyzing 23 years of data, this study identifies how NVIDIA transitioned from a speculative tech asset into a primary driver of the broader market index.
 
+## 🚀 How to Run
+Follow these steps to set up and run the analysis on your local machine:
+
+### 1. Prerequisites
+    Ensure you have **Python 3.8+** installed. You will also need the following libraries, which you can install via terminal:
+    ```bash 
+    pip install pandas matplotlib seaborn yfinance
+    ```
+
+### 2. Execution
+    Open your terminal and navigate to the project folder.
+    Launch Jupyter Notebook:
+
+    ```bash
+        jupyter notebook
+    ```
+### 3. Open NQ_QQQ_EDA.ipynb and run all cells sequentially.
+
 ## Data Methodology & Cleaning
 I performed extensive data engineering to ensure an accurate "apples-to-apples" comparison between a single stock and a market index:
 
