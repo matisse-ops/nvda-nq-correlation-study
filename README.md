@@ -11,20 +11,42 @@ Follow these steps to set up and run the analysis on your local machine:
     ```bash 
     pip install pandas matplotlib seaborn yfinance
     ```
+
+    To Launch:
+
+    Navigate to the project folder in your terminal.
+
+    Option 1:
     Ensure you also have jupyter installed.
     install via terminals:
     ```bash
     pip install notebook
     ```
+    
+    Run: jupyter notebook
 
-### 2. Execution
-    Open your terminal and navigate to the project folder.
-    Launch Jupyter Notebook:
+    Open NQ_QQQ_EDA.ipynb and run all cells.
 
-    ```bash
-        jupyter notebook
-    ```
-### 3. Open NQ_QQQ_EDA.ipynb and run all cells sequentially.
+    Option 2: 
+    Visual Studio Code (Fastest)
+    If you use VS Code, you do not need to install the Jupyter software separately:
+
+    Open the project folder in VS Code.
+
+    Install the Jupyter Extension from the Extensions marketplace.
+
+    Open NQ_QQQ_EDA.ipynb. VS Code will automatically prompt you to install any missing libraries.
+
+    Option 3: 
+    Anaconda
+    If you prefer an all-in-one suite:
+
+    Download and install Anaconda Navigator.
+
+    Launch Jupyter Notebook from the dashboard.
+
+    Use the terminal within Anaconda to run pip install yfinance (as it is the only library not included by default).
+
 
 ## Data Methodology & Cleaning
 I performed extensive data engineering to ensure an accurate "apples-to-apples" comparison between a single stock and a market index:
