@@ -49,7 +49,7 @@ Follow these steps to set up and run the analysis on your local machine:
 
 
 ## Data Methodology & Cleaning
-I performed extensive data engineering to ensure an accurate "apples-to-apples" comparison between a single stock and a market index:
+I performed extensive data engineering to ensure an accurate comparison between a single stock and a market index:
 
 ### 1. Data Acquisition & Variables
 * **NVDA Data**: Fetched daily OHLCV data via the `yfinance` API.
